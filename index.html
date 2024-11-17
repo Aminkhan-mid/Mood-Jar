@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood JAR</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>MOOD JAR</h1>
+        <h2>A place to keep track of your MOODs 🥴 Recently!!</h2>
+    </header>
+
+    <main>
+        <section>
+            
+          <div class="emoji-approx">
+            <div>
+                <p class="select">Select an Emoji and write your feelings below:</p>
+
+
+                <textarea id="text-inp" placeholder="What's on your mind? Write your thoughts and pick a mood! 😊"></textarea>
+                
+                <select name="select emoji" id="emoji-id">
+                    <optgroup label="Happy & Excited">
+                        <option value="😁">😁</option>
+                        <option value="😃">😃</option>
+                        <option value="😎">😎</option>
+                    </optgroup>
+                    
+                    <optgroup label="Sad & Disappointed">
+                        <option value="🙁">🙁</option>
+                        <option value="😞">😞</option>
+                        <option value="😭">😭</option>
+                        <option value="🥺">🥺</option>
+                    </optgroup>
+                    
+                    <optgroup label="Confused & Frustrated">
+                        <option value="🤯">🤯</option>
+                        <option value="😕">😕</option>
+                        <option value="😡">😡</option>
+                    </optgroup>
+                    
+                    <optgroup label="Relaxed & Thinking">
+                        <option value="🙂">🙂</option>
+                        <option value="😌">😌</option>
+                        <option value="🤔">🤔</option>
+                        <option value="😴">😴</option>
+                    </optgroup>
+                    
+                    <optgroup label="Playful & Mischievous">
+                        <option value="😜">😜</option>
+                        <option value="😏">😏</option>
+                        <option value="🤗">🤗</option>
+                    </optgroup>
+                    
+                    <optgroup label="Awkward & Nervous">
+                        <option value="😅">😅</option>
+                    </optgroup>
+                </select>
+
+            <button class="main-btn" id="main-btn">Drop into JAR</button>
+
+            </div>
+
+    <div>
+        <div class="approx">
+            <div>
+                <p>Your Emotional Estimate!</p>
+            </div>
+            <div class="emojies">
+                <span value="😁">😁</span>
+                <span value="🙁">🙁</span>
+                <span value="🤯">🤯</span>
+                <span value="🙂">🙂</span>
+                <span value="😃">😃</span>
+                <span value="😞">😞</span>
+                <span value="😡">😡</span>
+                <span value="😌">😌</span>
+                <span value="😕">😕</span>
+                <span value="😜">😜</span>
+                <span value="😭">😭</span>
+                <span value="😏">😏</span>
+                <span value="😴">😴</span>
+                <span value="😅">😅</span>
+                <span value="🤔">🤔</span>
+                <span value="🤗">🤗</span>
+                <span value="😎">😎</span>
+                <span value="🥺">🥺</span>
+            </div>
+            <div id="emoji-count-display"></div>
+        </div>
+        
+        
+        <div id="quotes"></div>
+    </div>
+
+</div>
+
+
+        <div id="feed"></div>
+    </section>
+</main>
+
+
+    <footer>
+        <p>&copy;2024; Designed by 
+            <a target="_blank" href="https://github.com/Aminkhan-mid">AMIN KHAN</a>
+        </p>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
