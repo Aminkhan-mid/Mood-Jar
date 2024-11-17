@@ -102,7 +102,7 @@ This project is licensed under the MIT License.
 
 ## 💬 Contact
 
-For any questions or feedback, please reach out to [your contact information or GitHub profile].
+For any questions or feedback, please reach out to [https://github.com/Aminkhan-mid/Mood-Jar.git].
 
 ---
 
